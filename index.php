@@ -1,7 +1,7 @@
 <?php
 	function postCaptcha($response){
 		$fieldsArray = array(
-			'secret' 		=> '6LdJO8cUAAAAAOgF8FHRbH0yCFHvzg0ctOhWjfXu',
+			'secret' 		=> '_GIZLI_ANAHTAR_',
 			'response' 		=> $response
 		);
 		$postFields = http_build_query($fieldsArray);
@@ -70,7 +70,7 @@
 							        </div>
 							    </div>
 							    <div class="uk-margin uk-flex uk-flex-center">
-							    	<div class="g-recaptcha" data-sitekey="6LdJO8cUAAAAAPB1eA79p621RYYtqwMeVXB2pbUM"></div>
+							    	<div class="g-recaptcha" data-sitekey="_SITE_ANAHTAR_"></div>
 							    </div>
 							    <div class="uk-margin">
 							        <button type="submit" class="uk-button uk-button-primary uk-width-expand uk-button-large">GİRİŞ</button>
